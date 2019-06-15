@@ -137,7 +137,7 @@ public class CSVFileReader {
          for (int insuranceUserInnerLoopCount = 0; insuranceUserInnerLoopCount < noDuplicateListOfInsuranceUsers.size(); insuranceUserInnerLoopCount ++){ 
          //System.out.println(completeListOfInsuranceUsersBase.get(insuranceUserOuterLoopCount).getVersion() + " " + insuranceUserOuterLoopCount + " " + insuranceUserInnerLoopCount );
          if ((completeListOfInsuranceUsersBase.get(insuranceUserOuterLoopCount).compareTo(noDuplicateListOfInsuranceUsers.get(insuranceUserInnerLoopCount)) == 0) && 
-            (completeListOfInsuranceUsersBase.get(insuranceUserOuterLoopCount).getVersion() < 
+            (completeListOfInsuranceUsersBase.get(insuranceUserOuterLoopCount).getVersion() >
             (noDuplicateListOfInsuranceUsers.get(insuranceUserInnerLoopCount).getVersion()))){
             //If a duplicate insurance record was found, it is removed from the noDuplicateListOfInsuranceUsers
             noDuplicateListOfInsuranceUsers.remove(insuranceUserInnerLoopCount); 
