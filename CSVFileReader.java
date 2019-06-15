@@ -161,9 +161,7 @@ public class CSVFileReader {
        insuranceCompanyFileNameArray = setInsuranceCompanyFileName.toArray(insuranceCompanyFileNameArray);
        String [] insuranceCompanyFileNameWithCSV = new String[insuranceCompanyFileNameArray.length];
        
-       //find separator to help split output into separate rows 
-       String newLine = System.getProperty("line.separator");
-              
+                     
        //concatenate the file extension ".csv" to insuranceCompanyFileNameArray and create insuranceCompanyFileNameWithCSV array
        for (int i = 0; i < insuranceCompanyFileNameArray.length; i++){
          insuranceCompanyFileNameWithCSV[i] = insuranceCompanyFileNameArray[i].concat(".csv"); 
