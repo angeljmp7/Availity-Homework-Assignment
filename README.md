@@ -27,6 +27,6 @@ There are some improvements that can be made to the code.  First, there is a lot
 
 Additionally, the program does not check if the original source file exists with a method like isFile(),etc., in order to prevent program from crashing at the very beggining during file opening sequence.  Moreover, the program does not prompt user to select location of where to store the files (drive or http location), and the program does not check first if the files exist already to help protect existing data or to use a different methodology that allows appending data to existing files.  
 
-Finally, the standard structure of a Class file, namely getters, setters, etc. wes not followed for the DataOutputStreamToMultipleFiles.  I made it as a quick duct tape solution to get this done quickly as I thought I might miss my deadline.   Some comments inside the Class might have helped communicate its purpose, etc.  
+Finally, the standard structure of a Class file, namely getters, setters, etc. was not followed for the DataOutputStreamToMultipleFiles Class.  I made it as a quick duct tape solution to get this done quickly as I thought I might miss my deadline.   Some comments inside the Class might have helped communicate its purpose, etc.  
 
 In short, many improvements can be made.  However, the purpose of the exercise was met.  
