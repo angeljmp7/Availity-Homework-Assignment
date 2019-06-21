@@ -32,3 +32,5 @@ Additionally, the program does not check if the original source file exists with
 Finally, the standard structure of a Class file, namely getters, setters, etc. was not followed for the DataOutputStreamToMultipleFiles Class.  I made it as a quick duct tape solution to get this done quickly as I thought I might miss my deadline.   Some comments inside the Class might have helped communicate its purpose, etc.  
 
 In short, many improvements can be made.  However, the purpose of the exercise was met.  
+
+Note: The topic of JSON had not been covered in class until the week after this submission.  I suspect that there is a way to do this exercise with JSON, but that topic will be covered extensively in July and August during the Java III class that includes J2EE, etc. 
